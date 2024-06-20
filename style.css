@@ -31,6 +31,9 @@ main {
     transition: 0.4s;
     margin: 10px;
     border-radius: 8px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
