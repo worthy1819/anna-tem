@@ -12,11 +12,9 @@ body {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 900px;
     width: 100%;
     margin: 0 auto;
-    padding-left: 0;
-    padding-right: 40px;
 }
 
 
@@ -35,6 +33,9 @@ main {
     font-family: "Amatic SC", sans-serif;
     font-weight: 600;
     font-style: normal;
+    font-size: larger;
+    letter-spacing: 1px;
+    text-align: center;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -51,16 +52,18 @@ main {
     width: 100%;
     margin-left: 10px;
     border-radius: 8px;
+    font-size: larger;
+    text-align: center;
   }
 
   .accordion:after {
-    content: '\2193'; /* Unicode character for "plus" sign (+) */
+    content: '\2304'; /* Unicode character for "plus" sign (+) */
     font-weight: 900;
     float: right;
     margin-left: 5px;
   }
   
   .active:after {
-    content: "\2191"; /* Unicode character for "minus" sign (-) */
+    content: "\2303"; /* Unicode character for "minus" sign (-) */
     font-weight: 900;
   }
