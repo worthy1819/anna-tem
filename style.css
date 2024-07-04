@@ -22,13 +22,13 @@ main {
     border: 2px solid #eee;
     background-color: white;
     cursor: pointer;
-    padding: 18px;
+    padding: 5px;
     width: 100%;
     text-align: left;
     outline: none;
     transition: 0.4s;
     margin: 10px;
-    border-radius: 8px;
+    border-radius: 14px;
     font-family: "Amatic SC", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -44,13 +44,13 @@ main {
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    padding: 18px;
+    padding: 10px;
     background-color: #eee;
     display: none;
     overflow: hidden;
     width: 100%;
     margin-left: 10px;
-    border-radius: 8px;
+    border-radius: 14px;
     font-size: 28px;
     text-align: center;
   }
@@ -59,7 +59,7 @@ main {
     content: '\2304'; 
     font-weight: 900;
     float: right;
-    margin-left: 5px;
+    margin-right: 15px;
   }
   
   .active:after {
