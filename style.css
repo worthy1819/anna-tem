@@ -32,7 +32,7 @@ main {
     font-family: "Amatic SC", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: larger;
+    font-size: 28px;
     letter-spacing: 1px;
     text-align: center;
   }
@@ -51,18 +51,18 @@ main {
     width: 100%;
     margin-left: 10px;
     border-radius: 8px;
-    font-size: larger;
+    font-size: 28px;
     text-align: center;
   }
 
   .accordion:after {
-    content: '\2304'; /* Unicode character for "plus" sign (+) */
+    content: '\2304'; 
     font-weight: 900;
     float: right;
     margin-left: 5px;
   }
   
   .active:after {
-    content: "\2303"; /* Unicode character for "minus" sign (-) */
+    content: "\2303"; 
     font-weight: 900;
   }

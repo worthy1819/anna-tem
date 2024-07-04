@@ -33,7 +33,7 @@ main {
     font-family: "Amatic SC", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: larger;
+    font-size: 28px;
     letter-spacing: 1px;
     text-align: center;
   }
@@ -52,7 +52,7 @@ main {
     width: 100%;
     margin-left: 10px;
     border-radius: 8px;
-    font-size: larger;
+    font-size: 28px;
     text-align: center;
   }
 
